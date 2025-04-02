@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div>
+        <h1>Generate a <span id="head-color">random password</span></h1>
+        <p id="subhead">Never use an insecure password again.</p>
+        <button onclick="generatePassword()">Generate passwords</button>
+        
+        <span class="chk">
+        <input type="number" min="7" max="40" step="1" value="15" id="number" onkeydown="return false">
+        <label for="number">Input Length(7-40)</label>
+        </span>
+        
+        <span class="chk">
+        <input type="checkbox" id="uppercase">
+        <label for="uppercase">exculde Uppercase Letters(A-Z)</label>
+        </span>
+        
+        <span class="chk">
+        <input type="checkbox" id="lowercase">
+        <label for="lowercase">exclude Lowercase Letters(a-z)</label>
+        </span>
+        
+        <span class="chk">
+        <input type="checkbox" id="numbers">
+        <label for="numbers">exclude numbers(0-9)</label>
+        </span>
+        
+        <span class="chk">
+        <input type="checkbox" id="symbols">
+        <label for="symbols">exclude symbols(@-$)</label>
+        </span>
+        
+        <span class="chk">
+        <input type="checkbox" id="no-duplicates">
+        <label for="no-duplicates">exclude duplicate characters</label>
+        </span>
+        
+        <hr>
+        <div id="passwordContainer">
+        <p class="password" id="pass-one"></p>
+        <p class="password" id="pass-two"></p>
+        </div>
+        
+        <p id="errorbox"></p>
+        </div>
+        <script src="index.js">
+        </script>
+    </body>
+</html>

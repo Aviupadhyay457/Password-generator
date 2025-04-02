@@ -1,0 +1,116 @@
+
+body {
+    margin: 0;
+    
+}
+
+div{
+    width:550px;
+    height:650px;
+    background-color: #1F2937;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 115px;
+}
+
+h1{
+    
+    height:80px;
+    width:355px;
+    margin-left:55px;
+    color: white;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 0px;
+}
+#head-color{
+    color:#4ADF86;
+    }
+
+#subhead{
+    color:#D5D4D8;
+    margin-top:10px;
+    margin-left:55px;
+    font-size: 20px;
+    width:370px;
+    height:28px;
+    margin-bottom: 0px;
+    
+}
+button{
+    margin-top: 50px;
+    margin-left: 55px;
+    background-color: #10B981;
+    border:none;
+    width:190px;
+    height:40px;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-size: 16px;    
+    margin-bottom: 0px;
+}
+
+hr{
+    margin-top: 35px;
+    margin-left: 55px;
+    width:445px;
+    height:0px;
+    color:#2F3E53;
+    margin-bottom:0px;
+    
+}
+
+.password{
+    background-color: #273549;
+    width:210px;
+    height:40px;
+    margin-top:35px;
+    border-radius: 5px;
+    color:#55F991;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    overflow: scroll;
+    text-overflow: ellipsis;
+
+
+    
+}
+#pass-one{
+    margin-left: 55px;
+    
+ 
+
+}
+
+#pass-two{
+    margin-left:25px;
+
+
+}
+
+#passwordContainer{
+    background-color: #1F2937;
+    margin-top: 0px;
+    display:flex;
+    height:40px;
+    padding-top: 0px;
+}
+
+
+.chk{
+    display: block;
+    margin-top:20px;
+    margin-left: 55px;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#errorbox{
+    margin-top: 60px;
+    text-align: center;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
